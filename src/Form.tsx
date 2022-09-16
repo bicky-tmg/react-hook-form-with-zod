@@ -54,6 +54,7 @@ export const Form: FC = () => {
       }, 3000);
     });
   };
+  console.log(errors);
 
   return (
     <form className="space-y-10" onSubmit={handleSubmit(onSubmit)}>
